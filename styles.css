@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Roboto:wght@400;500&display=swap');
+
+body{
+    background: linear-gradient(90deg, rgba(245,110,179,1) 0%, rgba(203,28,141,1) 34%, rgba(127,22,127,1) 100%) !important;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.navbar-nav{
+    font-family: 'Archivo', sans-serif;
+}
+
+.nav-link{
+    transition: 0.5s!important;
+    color:white!important; 
+}
+.nav-link:hover{
+    opacity: 70%;
+}
+
+.navbar-brand{
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 2rem !important;
+display:inline;
+transition: 0.5s, i !important;
+}
+
+.navbar-brand:hover{
+    opacity:70%
+}
+.sign-up{
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 500 !important;
+}
+
+.sign-up-btn{
+    transition:0.5s !important;
+}
+.sign-up-btn:hover{
+    opacity:70%
+}
+
+.navbar-toggler{
+    background-color: white;
+}
+
+.header{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 4rem !important;
+}
+
+.subheader{
+    font-family:"Archivo", sans-serif;
+    font-size:18px;
+}
+
+.favorites{
+    font-family:"Archivo",sans-serif;
+    font-size:22px
+}
+
+@media (max-width:768px){
+    .header{
+        font-size:3rem !important;
+    }
+    .subheader{
+        font-size:20px
+    }
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
+
+ .secondHeader{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem !important;
+}
+
+.notes{
+    font-family:"Archivo",sans-serif;
+    font-size:15px
+}
+
+.card{
+    border-radius: 1em !important;
+}
+
+.review{
+    font-family:"Archivo", sans-serif;
+    font-size:15px !important;
+}
